@@ -3,7 +3,7 @@ using Npgsql;
 
 namespace ProjetoSgbdSimples
 {
-        // Projeto simples para revisão basica.
+    // Projeto simples para revisão basica.
     class Program
     {
 
@@ -28,7 +28,7 @@ namespace ProjetoSgbdSimples
             // Execução da consulta usando um leitor de dados
             using var reader = command.ExecuteReader();
 
-           
+
             Console.WriteLine("Listagem de Usuários:\n");
 
             // Loop para ler os registros retornados pela consulta e exibi-los no console
