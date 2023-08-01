@@ -41,7 +41,7 @@ namespace ProjetoSgbdSimples
                 string email = reader.GetString(3);
 
                 // Exibe as informações do usuário no console
-                Console.WriteLine($"Nome: {nome}, Endereço: {endereco}, Telefone: {telefone}, Email: {email}");
+                Console.WriteLine($"Nome: {nome},\n Endereço: {endereco},\n Telefone: {telefone},\n Email: {email}");
             }
 
             // Fecha a conexão com o banco de dados
